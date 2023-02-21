@@ -4,27 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_tertiary90"
+    android:background="@color/white"
     tools:context=".FirstFragment">
 
     <ImageView
         android:id="@+id/buttom_first"
-        android:layout_width="45mm"
-        android:layout_height="100mm"
-        android:src="@drawable/perehod1"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:src="@drawable/perehodd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintVertical_bias="0.75" />
 
     <ImageButton
         android:id="@+id/textview_first_first"
-        android:layout_width="33mm"
-        android:layout_height="15mm"
-        android:src="@drawable/nadpis"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="86dp"
+        android:layout_width="244dp"
+        android:layout_height="110dp"
+        android:src="@drawable/nadpis11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
         tools:text="@tools:sample/date/day_of_week" />
 </androidx.constraintlayout.widget.ConstraintLayout>
